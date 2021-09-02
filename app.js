@@ -28,7 +28,7 @@ const translate = (url) => {
 }
 
 const Url = (text) => {
-    return 'https://api.funtranslations.com/translate/mandalorian.json' + `"${text}"`;
+    return 'https://api.funtranslations.com/translate/mandalorian.json?text=' + `"${text}"`;
 }
 
 inputArea.addEventListener('click' , function(){
